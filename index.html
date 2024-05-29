@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img class="title" src="https://media0.giphy.com/media/oe03Bx1skG56TpXstf/giphy.webp?cid=790b7611ohr29ybdgx4x5vb39xjksfjv2txrnuexluz3jycr&ep=v1_stickers_search&rid=giphy.webp&ct=s">
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards drawn:</p>
+        <p id="sum-el">Total Sum:</p>
+        <div class="main-content">
+            <div class="card-container">
+                <img class="playing-cards" src="images/playing-cards.png">
+            </div>
+            <div class="dealer-container">
+                <img class="dealer" src="images/dealer.png.png">
+            </div>
+        </div>
+        <div class="button-container">
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+        </div>
+        <p id="player-el"></p>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <canvas id="confetti"></canvas>
+        <script src="index.js"></script>
+    </div>   
+</body>
+</html>
