@@ -22,6 +22,7 @@ body {
 }
 
 p {
+    font-size: 50px;
     margin: 50;
 }
 
@@ -61,18 +62,26 @@ p {
 
 button {
     color: #D3363B;
-    width: 150px;
+    font-family: "Rye", serif;
+    width: 250px; 
+    height: 100px; 
     background: #340201;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 30px; 
     font-weight: bold;
     border: none;
-    border-radius: 7px;
+    border-radius: 15px; 
     border-bottom: 10px solid;
-    margin: 30px;
-    margin-top: 90px;
+ 
+    
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 
-
+.button-container button {
+    margin: 20px;
+}
 
