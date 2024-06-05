@@ -1,6 +1,8 @@
 # BlackJack Game Project
 This project is a simple interactive Blackjack game implemented using HTML, CSS, and JavaScript. The game features a graphical user interface with playing cards and a dealer image. Players can start a game, draw new cards, and see their current cards and total sum. The game includes the following functionalities:
 
+Visit the site at https://blackjackar11.netlify.app/
+
 1. Player Initialization: The player starts with a predefined name and zero chips.
 2. Card Drawing Mechanism: Cards are drawn randomly, with face cards (Jack, Queen, King) valued at 10, and Aces valued at 11.
 3. Game States: The game tracks whether the player is still in the game (isAlive) and whether they have achieved Blackjack (hasBlackJack).
